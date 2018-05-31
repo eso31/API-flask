@@ -31,11 +31,11 @@ def twitter(screen_name):
     return person.__dict__
 
 def get_api():
-    consumer_key = 'G3tjNyIcIwpOJZUnm3cyNwPHF'
-    consumer_secret = '1psvt6xyLoLplDJvH3CNnlKaCEdECN7YI1V0A4zcFJtUdTiH5G'
+    consumer_key = 'YOUR CONSUMER KEY'
+    consumer_secret = 'YOUR CONSUMER SECRET'
 
-    access_token = '177596781-RKlaoiAwIWf1in3eQITDC6GIPtJ6MTIJsyhCNk6H'
-    access_token_secret = '52iksOh15zqiq2a40lYf9jef0NE0C7vwWaOs4pu4KIfHO'
+    access_token = 'YOUR ACCESS TOKEN'
+    access_token_secret = 'YOUR ACCESS TOKEN SECRET'
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
