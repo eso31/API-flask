@@ -7,6 +7,9 @@ This API is going to be consumed by a web application also developed with flask.
 https://github.com/eso31/WebApp-flask
 
 
+# Important
+In order to make this application work, you must have the secrets for the twitter API. You can get them at https://apps.twitter.com/
+
 How to run:
 
 ```
